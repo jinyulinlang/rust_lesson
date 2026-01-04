@@ -1,0 +1,36 @@
+# Compiled object files
+[*.o]
+
+# Libraries
+[*.a]
+[*.dylib]
+[*.so]
+
+# Build directories
+[*.d]
+[*.dll]
+[*.exe]
+[*.lib]
+[*.out]
+[*.pdb]
+[*.manifest]
+
+# Test results and coverage
+[*.gcov]
+[*.gcda]
+[*.gcno]
+[*.prof]
+[*.lcov]
+[*.geninfo]
+[*.ipa]
+[*.log]
+[*.trs]
+[*.info.gz]
+
+# Cargo output
+[*.crate]
+Cargo.lock
+
+# Rust build output
+**/target/
+.idea/
