@@ -6,4 +6,5 @@ pub type AppResult<T> = std::result::Result<T, AppError>;
 pub enum AppError {
     #[error("JSON Error: {0}")]
     JsonError(#[from] serde_json::Error),
+    
 }
