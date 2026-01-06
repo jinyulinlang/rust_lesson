@@ -1,5 +1,4 @@
 use std::io::{self, Write};
-
 fn main() {
     // 创建一个计算器实例，使用命令行计算机
     let mut calculator = Calculator::new(CommandLineComputer);
